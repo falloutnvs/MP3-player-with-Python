@@ -10,7 +10,7 @@ import msvcrt
 pygame.mixer.init()
 
 #set the mp3 folder
-mp3_path = 'D:/Python Lanjutan/mp3player_project/mp3_folder'
+mp3_path = ' ' #enter the mp3 folder path
 
 #mp3 file
 mp3_file = [f for f in os.listdir(mp3_path) if f[-3:].lower() == 'mp3']
